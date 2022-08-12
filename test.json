@@ -12,7 +12,7 @@
       },
       "background": {
        "type": "html",
-       "url": "https://tech.honganh.vn",
+       "url": "https://jasonelle-archive.github.io/docs/legacy/android/#debugging",
        "action": {
         "trigger": "navigate"
        }
