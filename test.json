@@ -12,7 +12,7 @@
       },
       "background": {
        "type": "html",
-       "url": "https://ops-prod-honganh-mobile.netlify.app",
+       "url": "https://tech.honganh.vn",
        "action": {
         "trigger": "navigate"
        }
