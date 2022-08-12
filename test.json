@@ -1,100 +1,35 @@
 {
   "$jason": {
     "head": {
-      "title": "image"
+      "title": "Basic"
     },
     "body": {
       "header": {
-        "menu": {
-          "text": "View JSON",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/view/component/image/index.json",
-            "view": "web"
-          }
+        "title": {
+         "type": "image",
+         "url": "https://honganh.vn/wp-content/uploads/2019/03/photo_2020-12-03_16-02-38-2.png"
         }
       },
-      "sections": [{
-        "header": {
-          "type": "label",
-          "style": {
-            "background": "#f5f5f5"
-          },
-          "text": "Full width image"
-        },
-        "items": [{
-          "type": "image",
-          "style": {
-            "width": "100%",
-            "padding": "0"
-          },
-          "url": "http://i8.mangareader.net/ito-junjis-cat-diary/1/ito-junjis-cat-diary-2241289.jpg"
-        }]
-      }, {
-        "header": {
-          "type": "label",
-          "style": {
-            "background": "#f5f5f5"
-          },
-          "text": "rounded image"
-        },
-        "items": [{
-          "type": "vertical",
-          "style": {
-            "padding": "50",
-            "background": "#0000ff",
-            "align": "center"
-          },
-          "components": [{
-            "type": "image",
-            "url": "https://pbs.twimg.com/profile_images/557061751150112768/eMwi4Xz2.jpeg",
-            "style": {
-              "width": "200",
-              "corner_radius": "100"
-            }
-          }]
-        }]
-      }, {
-        "header": {
-          "type": "label",
-          "style": {
-            "background": "#f5f5f5"
-          },
-          "text": "rounded image with transparency"
-        },
-        "items": [{
-          "type": "vertical",
-          "style": {
-            "padding": "50",
-            "background": "#0000ff",
-            "align": "center"
-          },
-          "components": [{
-            "type": "image",
-            "url": "https://pbs.twimg.com/profile_images/557061751150112768/eMwi4Xz2.jpeg",
-            "style": {
-              "width": "200",
-              "opacity": "0.3",
-              "corner_radius": "100"
-            }
-          }]
-        }]
-      }, {
-        "header": {
-          "type": "label",
-          "style": {
-            "background": "#f5f5f5"
-          },
-          "text": "animated gif"
-        },
-        "items": [{
-          "type": "image",
-          "url": "https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif",
-          "style": {
-            "padding": "0",
-            "width": "100%"
-          }
-        }]
-      }]
+      "background": {
+       "type": "html",
+       "url": "https://ops-prod-honganh-mobile.netlify.app",
+       "action": {
+        "trigger": "navigate"
+       }
+      },
+     "footer": {
+      "tabs": {
+       "items": [
+        {
+         "image": "https://img.icons8.com/material-rounded/344/home.png",
+         "url": "https://google.com"
+        },{
+         "image": "https://img.icons8.com/ios-filled/344/search--v1.png",
+         "url": "https://google.com"
+        }
+       ]
+      }
+     }
     }
   }
 }
